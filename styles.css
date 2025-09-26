@@ -1,8 +1,66 @@
-.navbar{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+.header .date{
+    float: right;
 }
-.navbar li{
+
+.header h3 {
     float: left;
+}
+
+.header em{
+    float: left;
+}
+
+.header{
+    padding: 0px;
+    margin: 0px;
+}
+
+hr, ul{
+    margin: 3px;
+}
+
+.experience{
+    margin: 0px;
+}
+
+.resume-info{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.resume-section h2{
+    font-size: 14pt;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar, .foot{
+    background-color: black;
+    list-style: none;
+    padding: 1.5em;
+    text-align: center;
+}
+.navbar li, .foot li{
+    color: white;
+    display: inline;
+    margin: 2em;
+    padding: 1em, 0em;
+}
+
+.navbar li a, .foot li a{
+    font-size: 20pt;
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar li a:visited, .foot li a:visited{
+    color: bisque;
+}
+
+.navbar li a:hover, .foot li a:hover{
+    color: grey;
 }
