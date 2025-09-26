@@ -1,19 +1,29 @@
+.card img{
+    width: 75%;
+    height: 50%;
+    float: left;
+}
 
-.header .date{
+.card .desc{
     float: right;
 }
 
-.header h3 {
-    float: left;
+.header .date{
+    float: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-.header em{
+.header h3, .header h4{
     float: left;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-.header{
-    padding: 0px;
-    margin: 0px;
+.header .italicize{
+    font-style: italic; 
+    font-weight: normal;
+    font-size: 12pt;
 }
 
 hr, ul{
