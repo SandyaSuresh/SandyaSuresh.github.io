@@ -1,25 +1,33 @@
-.show{
-    visibility: visible;
-    z-index: 10;
+video{
+   width: 50%;
+   height: 80%;
+   max-width: 100%;
+   max-height: 100%;
 }
-
 .popupcontent{
     visibility: inherit;
+    align-content: center;
 }
+
+.popupcontent video{
+    margin-left: 20px;
+    float: left;
+}
+
 
 #popup{
     visibility: hidden;
-    width: 160px;
-    height: 160px;
+    width: 75%;
+    height: 75%;
     background-color: #555;
     color: #fff;
-    text-align: center;
+    text-align: center;;
     border-radius: 6px;
     padding: 8px 0;
     position: fixed;
-    bottom: 200%;
-    left: 50%;
-    margin-left: -300px;
+    bottom: 10%;
+    left: 20%;
+    margin-left: -60px;
 }
 
 .tiles{
@@ -37,6 +45,7 @@
 
 .card:hover{
     background-color:bisque;
+    cursor: pointer;
 }
 
 .card img, .card video{
