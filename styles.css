@@ -1,10 +1,50 @@
-.card img{
-    width: 75%;
-    height: 50%;
+.popupcontent{
+    visibility: inherit;
+}
+
+#popup{
+    width: 160px;
+    height: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: fixed;
+    bottom: 200%;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.tiles{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, auto);
+}
+
+.card{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.card:hover{
+    background-color:bisque;
+}
+
+.card img, .card video{
+    display: block;
+    margin: auto;
+    width:50%;
+    height: 75%;
     float: left;
 }
 
 .card .desc{
+    text-align: center;
+    width:50%;
+    height: 100%;
     float: right;
 }
 

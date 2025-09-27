@@ -2,19 +2,70 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
-        
+        <title>Portfolio</title>
     </head>
     <body>
         <div class="nav-bar"> </div>
+
+        <div id="popup" >
+
+        </div>
+
         <div class="tiles">
-            <div class="card"></div>
+            
+            <div class="card">
                 <img src="./images/placeholder.png">
                 <div class="desc">
-                    <h4>Project Name</h4>
-                    <p>Project Description</p>
+                    <h4>Parking Counter</h4>
+                    <p> 
+                        Made a rig to count the number of cars entering and exiting a parking lot
+                        Worked with OpenCV and computer vision algorithms to identify cars exiting and entering the parking lot
+                        Worked with a team to work through many failure points of our design including thermal issues and testing issues
+                    </p>
                 </div>
+                <div class="clear"></div>
             </div>
-            <div class="clear"></div>
+            
+
+            <div class="card">
+                <img src="./images/placeholder.png">
+                <div class="desc">
+                    <h4>Genetic Algorithm Research Project</h4>
+                    <p>
+                        Developed genetic algorithm that optimized for a series of bits predetermined by the user
+                        Graphed the fitness of each generation to show the algorithm's results and determine optimal fitness functions
+                        Implemented selection algorithms to narrow down and find the chromosome that would best fulfill our needs
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="card">
+                <img src="./images/placeholder.png">
+                <div class="desc">
+                    <h4>Origami Robot: Modeling and Simulation</h4>
+                    <p>
+                        Simulated the movements of human joints using an origami-based model of a hand and leg in Autodesk Inventor.
+                        Publication: Modular Self-Lock Origami:design, modeling, and simulation to improve the performance of a rotational joint
+                        Zare, Samira, et al. “Three-Dimensionally Printed Self-Lock Origami: Design, Fabrication, and Simulation to Improve Performance of Rotational Joint.” Micromachines, vol. 14, no. 8, 2023, p. 1649, https://doi.org/10.3390/mi14081649.
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="card" onclick="uselessAlarmClick()">
+                <img src="./images/placeholder.png">
+                <div class="desc">
+                    <h4>Useless Alarm Clock</h4>
+                    <p>
+                        Designed an alarm clock that required the user to scan an RFID tag and flip a switch to turn off the alarm.
+                        Used timers and interrupts on special function registers with Arduino Unos to detect switch flips
+                        Wrote C code to interface the time module with the LCD display and buzzer.
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
         </div>
         <div class="footer">
     </body>
