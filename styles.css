@@ -1,8 +1,14 @@
+.show{
+    visibility: visible;
+    z-index: 10;
+}
+
 .popupcontent{
     visibility: inherit;
 }
 
 #popup{
+    visibility: hidden;
     width: 160px;
     height: 160px;
     background-color: #555;
